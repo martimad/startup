@@ -1,0 +1,1 @@
+I figured out more of what it means to merge files when commiting to github - I had done it before but now i actually understand!
