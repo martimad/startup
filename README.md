@@ -12,6 +12,10 @@ The website will serve a dual purpose:
 To facilitate this, I will integrate my existing booking service into the site, allowing clients to view real-time availability.
 Clients can also recieve education on potential services the site. Many clients may be unfamiliar with the services I provide or their specifics. To address this, the website will feature detailed explanations and educational content about each service, helping clients understand what they need to book.
 
+## Mockups
+![First image](startup specs-5.jpg "startup specs-5")
+
+
 ## Technology Stack
 
 ### HTML
