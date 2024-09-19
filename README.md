@@ -13,7 +13,12 @@ To facilitate this, I will integrate my existing booking service into the site, 
 Clients can also recieve education on potential services the site. Many clients may be unfamiliar with the services I provide or their specifics. To address this, the website will feature detailed explanations and educational content about each service, helping clients understand what they need to book.
 
 ## Mockups
-![First image](startup specs-5.jpg "startup specs-5")
+![First image](https://github.com/martimad/startup/blob/main/startup%20specs-5.jpg)
+![Second image](https://github.com/martimad/startup/blob/main/startup%20specs-6.jpg)
+![Third image](https://github.com/martimad/startup/blob/main/startup%20specs-7.jpg)
+![Fourth image](https://github.com/martimad/startup/blob/main/startup%20specs-8.jpg)
+![Login image](https://github.com/martimad/startup/blob/main/startup%20specs-9.jpg)
+
 
 
 ## Technology Stack
