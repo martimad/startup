@@ -46,3 +46,16 @@ A WebSocket connection will be utilized to display real-time information about s
 
 ## Conclusion
 This project aims to create a comprehensive online platform for my nail services, enhancing client education and streamlining the booking process while leveraging modern web technologies.
+
+# Html Startup 
+## Notes
+One of the biggest tools I discovered was the search and replace button can swap out segments of code very fast which was super helpful for updating the bootstrap code 
+
+I learned that instagram has a pre-made widget that you can embed into your html to display the images already posted on the socials 
+
+I learned more of what a caddy file is and how to manipulate it 
+
+I learned that you need to redeploy AND commit and push every time you make significant changes - something that I messed up on many times 
+
+I realized just how ugly things are witout css.. yikes haha.
+
