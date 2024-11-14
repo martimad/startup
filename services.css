@@ -1,5 +1,59 @@
 @import "main.css";
 
-body{
-    background-color: lightblue;
+
+/* .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: column;
+    gap: 100px;
+    }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners 
+    height:30%;
+    width: 20%;
+    grid-column: 1 / 3;
+    grid-row: 1;
+  } */
+
+.cards{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
 }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  @media (max-width: 768px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 480px){
+    .grid-container{
+        grid-template-columns: 1fr
+    }
+  }
