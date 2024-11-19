@@ -59,8 +59,8 @@ I learned that you need to redeploy AND commit and push every time you make sign
 
 I realized just how ugly things are witout css.. yikes haha.
 
-#CSS startup 
-##notes 
+# CSS startup 
+## notes 
 
 One of the biggest things I learned - GRIDS. Oh man doing flex grids and getting cards to sit nicely in a grid pattern took so much time. This is what ended up being successful for evenly sized, evenly spaces rows:
 ```
@@ -88,9 +88,19 @@ I learned that plugins often dont allow you to edit their css - like on my portf
 
 
 
+# React Startup 
+### React Components 
+Setting variables within react components is tricker than I thought. I discovered this is how to set a component 
+'''
+//Within a react function
+const [backColor, setColor] = React.useState("lightblue");
 
-
-
+function changeColor() {
+//rand color generator code
+setColor(newColor);
+}
+'''
+This uses setColor to be able to change the "backColor" to newColor. The 'useState' is mostly used as an initial state
 
 
 
