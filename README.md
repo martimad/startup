@@ -91,7 +91,7 @@ I learned that plugins often dont allow you to edit their css - like on my portf
 # React Startup 
 ### React Components 
 Setting variables within react components is tricker than I thought. I discovered this is how to set a component 
-'''
+```
 //Within a react function
 const [backColor, setColor] = React.useState("lightblue");
 
@@ -99,7 +99,7 @@ function changeColor() {
 //rand color generator code
 setColor(newColor);
 }
-'''
+```
 This uses setColor to be able to change the "backColor" to newColor. The 'useState' is mostly used as an initial state
 
 
