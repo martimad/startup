@@ -1,0 +1,24 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "For my startup, I am developing a website dedicated to my nail services. As I currently work in a salon and operate a small business, enhancing my online presence is essential for attracting new clients and engaging with existing ones.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.1"
+  }
+}

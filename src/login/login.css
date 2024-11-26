@@ -1,0 +1,40 @@
+@import "/src/app.css";
+
+
+
+h1{
+    margin-left:auto;
+    margin-right:auto;
+}
+#login-form{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form{
+    flex-direction: row;
+    flex: 1;
+}
+
+#login-widget{ /*/selects by id*/
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 5%;
+}
+
+#submit-buttons{
+    flex-direction: row !important;
+    flex: 1;
+}
+#submit-buttons .submit{
+    padding: 2% 2em;
+}
+
+.user-info{
+    padding: 10px;
+}
+
+.back-button{  /*selects by class */
+    padding: 25px;
+}
