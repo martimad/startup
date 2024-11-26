@@ -59,3 +59,48 @@ I learned that you need to redeploy AND commit and push every time you make sign
 
 I realized just how ugly things are witout css.. yikes haha.
 
+# CSS startup 
+## notes 
+
+One of the biggest things I learned - GRIDS. Oh man doing flex grids and getting cards to sit nicely in a grid pattern took so much time. This is what ended up being successful for evenly sized, evenly spaces rows:
+```
+.cards{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+```
+
+Figuring out how to make the header tabs evenly spaced, have a logo image and a way to click on a login icon in the top right corner ended up being way harder than I thought. I figured since like every website ever uses those it wouldnt be to hard, but I was wrong. Its still not perfect, but its not horrible. 
+I ended up needing a **flex, z-index of 999, inline display of all elements, and some very specific margins** to get this look
+
+**I figured out by creating a "main" css sheet I could have elements and theme apply across multiple pages, to create a sort of 'brand' theme and have it all match**
+
+getting the Login widget to center in the page and the items to have spacing to make it readble was a lot harder than I thought. I ended up needing to use **a lot of *div containters*** to be able to encompace all the elements and create lots of different boxes within boxes that I could adjust
+
+I learned that plugins often dont allow you to edit their css - like on my portfolio page that had an instagram feed plugin- it did not want to let me adust it- so I didn't.
+
+
+
+# React Startup 
+### React Components 
+Setting variables within react components is tricker than I thought. I discovered this is how to set a component 
+```
+//Within a react function
+const [backColor, setColor] = React.useState("lightblue");
+
+function changeColor() {
+//rand color generator code
+setColor(newColor);
+}
+```
+This uses setColor to be able to change the "backColor" to newColor. The 'useState' is mostly used as an initial state
+
+
+
