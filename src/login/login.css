@@ -27,8 +27,9 @@ form{
     flex-direction: row !important;
     flex: 1;
 }
-#submit-buttons .submit{
+#submit-buttons .submitButton{
     padding: 2% 2em;
+    margin: 20px !important;
 }
 
 .user-info{

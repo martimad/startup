@@ -41,21 +41,14 @@ export default function App() {
               </NavLink>
             </li>
           </menu>
-    <div className="login-img"><a href="login.html" id="login-img"/><img src="pngegg.png"/></div>
+    <div className="login-img"><a href="login.html" id="login-img"/><img src="pngegg.png"/><NavLink className='nav-link' to='login'></NavLink></div>
       </header>
       <Routes>
             <Route path='/' element={<Home />} />
-            <Route
-                path='/login'
-                element={
-                <Login
-                />
-                }
-                exact
-            />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/services' element={<Services />} />
             <Route path='/book' element={<Book />} />
+            <Route path='/login' element={<Login />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
        
