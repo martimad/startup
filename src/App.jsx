@@ -41,8 +41,12 @@ export default function App() {
               </NavLink>
             </li>
           </menu>
-    <div className="login-img"><a href="login.html" id="login-img"/><img src="pngegg.png"/><NavLink className='nav-link' to='login'></NavLink></div>
-      </header>
+          <div className="login-img">
+            <NavLink to='/login'>
+              <img src="pngegg.png" alt="Login" />
+            </NavLink>
+          </div>
+   </header>
       <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/portfolio' element={<Portfolio />} />
