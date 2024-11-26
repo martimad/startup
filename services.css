@@ -1,23 +1,5 @@
-@import "main.css";
+@import "/src/app.css";
 
-
-/* .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
-    grid-auto-flow: column;
-    gap: 100px;
-    }
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners 
-    height:30%;
-    width: 20%;
-    grid-column: 1 / 3;
-    grid-row: 1;
-  } */
 
 .cards{
     display: grid;
