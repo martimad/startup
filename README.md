@@ -102,5 +102,16 @@ setColor(newColor);
 ```
 This uses setColor to be able to change the "backColor" to newColor. The 'useState' is mostly used as an initial state
 
+### React startup 
 
+Importing react has to be done on EVERY jsx page, not just the main file 
+
+#### Browser Router 
+    Getting the browser router to work right was a mess. I learned that the brouser router needs to be the MAIN wrapping tag - it contains EVERYTHING from the app jsx. Therefore, every other index piece gets wrapped inside the browser router when the app dynamically adjusts the pages 
+#### Converting html to javascript 
+2 things created the biggest headaches for me 
+Getting images to display properly, knowing if I needed to use a react component or I could just import it from the public file and then getting them properly styled. The second was how picky javascript is about all the syntax. Trying to change all the 'class' tags to 'className' or making sure that <img> tags had a closing / at the end of them (which my original html didnt require, but I had to retroactively input) 
+
+#### Plugins 
+On one page, I had instagram feeds embedded into my page so that it would display all my work that is posted on instagram. This is a plugin that I did not write, and while it worked in my initial html, it did not work in my javascript router. I had to visit tas multiple times, adjust all sorts of tags I knew nothing about and run it through chatgpt many times in order for it to run the way it was supposed to. 
 
