@@ -107,7 +107,8 @@ This uses setColor to be able to change the "backColor" to newColor. The 'useSta
 Importing react has to be done on EVERY jsx page, not just the main file 
 
 #### Browser Router 
-    Getting the browser router to work right was a mess. I learned that the brouser router needs to be the MAIN wrapping tag - it contains EVERYTHING from the app jsx. Therefore, every other index piece gets wrapped inside the browser router when the app dynamically adjusts the pages 
+Getting the browser router to work right was a mess. I learned that the brouser router needs to be the MAIN wrapping tag - it contains EVERYTHING from the app jsx. Therefore, every other index piece gets wrapped inside the browser router when the app dynamically adjusts the pages 
+
 #### Converting html to javascript 
 2 things created the biggest headaches for me 
 Getting images to display properly, knowing if I needed to use a react component or I could just import it from the public file and then getting them properly styled. The second was how picky javascript is about all the syntax. Trying to change all the 'class' tags to 'className' or making sure that <img> tags had a closing / at the end of them (which my original html didnt require, but I had to retroactively input) 
