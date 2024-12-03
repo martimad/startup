@@ -106,12 +106,6 @@ const InstagramEmbed = () => {
   );
 };
 
-//export default InstagramEmbed;
-
-
-
-
-
 export function Portfolio(){
 
     
@@ -122,7 +116,6 @@ export function Portfolio(){
         <button>Book now!</button>
       </a>
       <div>
-      <h1>Instagram Embed</h1>
       <InstagramEmbed />
     </div>
 
