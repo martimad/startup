@@ -116,3 +116,7 @@ Getting images to display properly, knowing if I needed to use a react component
 #### Plugins 
 On one page, I had instagram feeds embedded into my page so that it would display all my work that is posted on instagram. This is a plugin that I did not write, and while it worked in my initial html, it did not work in my javascript router. I had to visit tas multiple times, adjust all sorts of tags I knew nothing about and run it through chatgpt many times in order for it to run the way it was supposed to. 
 
+# Startup Service 
+Honestly I understood like none of this portion of the project. I get that it somehow links the front to the backend and allows you to call on other websites, get push or modify information from them, and that it lets you get error messages if it doesnt work the way its supposed to. But I have no idea how or why :)
+
+I know that curl stands for cliet url and allows you to talk to the running local express package.
