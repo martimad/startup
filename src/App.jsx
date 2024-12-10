@@ -5,11 +5,17 @@ import { Services } from './services/services';
 import { Portfolio } from './portfolio/portfolio';
 import { Home } from './home/home';
 import { Book } from './book/book';
+import { AuthState } from './login/authState';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 
+
 export default function App() {
+  const [userName, setUserName] = React.useState(localStorage.getItem('userName') || '');
+  const currentAuthState = userName ? AuthState.Authenticated : AuthState.Unauthenticated;
+  const [authState, setAuthState] = React.useState(currentAuthState);
+
   return (
     <>
       <BrowserRouter>
@@ -52,7 +58,14 @@ export default function App() {
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/services' element={<Services />} />
             <Route path='/book' element={<Book />} />
-            <Route path='/login' element={<Login />} />
+            <Route path='/login' element={<Login
+                userName={userName}
+                authState={authState}
+                onAuthChange={(userName, authState) => {
+                  setAuthState(authState);
+                  setUserName(userName);
+                }}
+              />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
        

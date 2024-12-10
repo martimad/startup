@@ -1,26 +1,29 @@
 import React from 'react';
 import './login.css';
 
+import { Unauthenticated } from './unauthenticated';
+import { Authenticated } from './userProfile';
+import { AuthState } from './authState';
 
-export function Login(){
-    return(
-    <div id="login-widget">
-        <h1>Login</h1>
-        <div id="login-form">
-        <form method="get" action="portfolio.html">
-            <div className="user-info">
-                <span>Username</span>
-                <input type="text" placeholder="your@email.com" />
-            </div>
-            <div className="user-info">
-                <span>Password</span>
-                <input type="password" placeholder="Password" />
-            </div>
-            <div id="submit-buttons">
-            <button type="submit" class="submitButton">Login</button>
-            <button type="submit" class="submitButton">Create</button>
-            </div>
-            </form>
+
+export function Login({ userName, authState, onAuthChange }) {
+    return (
+      <main id="login-widget">
+        <div>
+        {authState !== AuthState.Unknown && <h1>Welcome to the Nail Salon</h1>}
+          {authState === AuthState.Authenticated && (
+            <Authenticated userName={userName} onLogout={() => onAuthChange(userName, AuthState.Unauthenticated)} />
+          )}
+          {authState === AuthState.Unauthenticated && (
+            <Unauthenticated
+              userName={userName}
+              onLogin={(loginUserName) => {
+                onAuthChange(loginUserName, AuthState.Authenticated);
+              }}
+            />
+          )}
         </div>
-    </div>)
-}
+      </main>
+    );
+  }
+  
