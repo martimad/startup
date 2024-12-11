@@ -120,3 +120,12 @@ On one page, I had instagram feeds embedded into my page so that it would displa
 Honestly I understood like none of this portion of the project. I get that it somehow links the front to the backend and allows you to call on other websites, get push or modify information from them, and that it lets you get error messages if it doesnt work the way its supposed to. But I have no idea how or why :)
 
 I know that curl stands for cliet url and allows you to talk to the running local express package.
+
+# Login Service 
+Getting Mongo to work felt like speaking another language. I dont quite understand how it stores data, but I do know it connects to my application a lot like github does. It requires a password and you link it using a passkey and a link. Then, using different push, fetch and pull methods that can add, remove or adjust the data within the cluster. 
+
+During this project I finally understood how the react router and divs and how react can swap out components within the html. It finally started to make sense to me. 
+
+I was able to use chatgpt for a lot of this part of the assignment. I'm finally learning to use the tools that I have
+
+I had to make a few new pages, as I hadnt yet developed the pages for what happened after a user logged in. I had to make pages from scratch, from html to css to java and react and the login. It kinda felt like a whole picture on a small scale. I was able to use every piece of knowledge that I have learned from this course so it felt really satisfying to put all the pieces all together!!
