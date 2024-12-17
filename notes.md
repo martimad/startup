@@ -105,3 +105,58 @@ Port 443: Reserved for HTTPS (Hypertext Transfer Protocol Secure). It is used fo
 Port 22: Reserved for SSH (Secure Shell). It is used for secure remote login and command execution over a network.
 
 What will the following code using Promises output when executed?
+
+
+# Final 
+
+### HTTP Status Code Ranges
+300 (Redirection): Indicates further action is needed to complete the request (e.g., redirects).
+400 (Client Errors): The request is invalid due to a client-side issue (e.g., bad syntax, unauthorized).
+500 (Server Errors): The server encountered an issue and cannot process the request.
+
+### Cookie types 
+Secure Cookie: Sent only over HTTPS to prevent interception.
+HttpOnly Cookie: Inaccessible to JavaScript (prevents XSS attacks).
+SameSite Cookie: Prevents cross-origin requests, mitigating CSRF attacks.
+
+### Express Fetch Return 
+If the server responds with res.json({ message: "Success" }):
+
+''' const response = await fetch('/api/document');
+const data = await response.json();
+console.log(data);
+'''
+Output: { message: "Success" }
+
+The fetch function is a client-side JavaScript API used to send HTTP requests (e.g., GET, POST, PUT) to a server. It doesn't handle WebSocket communication. 
+
+### WebSocket Protocol Purpose
+The WebSocket protocol provides full-duplex communication over a single TCP connection, enabling real-time, bidirectional data exchange between client and server.
+
+### Acronyms : 
+JSX: JavaScript XML
+JS: JavaScript
+AWS: Amazon Web Services
+NPM: Node Package Manager
+NVM: Node Version Manager
+
+### React Hook Types
+State Hook: useState – Manages local state.
+Context Hook: useContext – Consumes context values.
+Ref Hook: useRef – Accesses DOM elements or persists values.
+Effect Hook: useEffect – Runs side effects.
+Performance Hook: useMemo/useCallback – Optimizes rendering.
+
+### package.json
+The package.json file defines the project metadata, dependencies, scripts, and configurations for a Node.js project.
+
+###  Node.js
+Node.js is a JavaScript runtime environment that allows you to run JavaScript on the server-side.
+
+### PM2
+PM2 is a process manager for Node.js applications, enabling automatic restarts, load balancing, and monitoring in production environments.
+
+### Vite
+Vite is a fast build tool for modern web projects that leverages ES modules and provides rapid development server performance.
+
+
